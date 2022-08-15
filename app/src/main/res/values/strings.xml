@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Little Note</string>
+    <string name="username">Username</string>
+    <string name="email_example">abc@example.com</string>
+    <string name="new_user_signup">SignUp</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="title_activity_note_details">NoteDetails</string>
+    <string name="title_activity_add_note">AddNote</string>
+    <string name="error_empty">Can not Save note with Empty Field.</string>
+    <string name="success_note_add">Note Added.</string>
+    <string name="note_saved">Note Saved.</string>
+    <string name="error_saved">Error, Try again.</string>
+    <string name="error_log">Error ! </string>
+    <string name="temporary_log">Logged in With Temporary Account.</string>
+    <string name="temporary_connect">Your Are Connected.</string>
+    <string name="error_delete">Error in Deleting Note.</string>
+    <string name="alert_delete_title">Are you sure ?</string>
+    <string name="alert_delete_message">You are logged in with Temporary Account. Logging out will Delete All the notes.</string>
+    <string name="alert_delete_positive">Sync Note</string>
+    <string name="alert_delete_negative">Logout</string>
+    <string name="alert_login_message">Linking Existing Account Will delete all the temp notes. Create New Account To Save them.</string>
+    <string name="alert_login_positive">Save Notes</string>
+    <string name="alert_login_negative">Its OK</string>
+    <string name="login_success">Success !</string>
+    <string name="login_failure">Login Failed. </string>
+    <string name="delete_message_notes">All Temp Notes are Deleted.</string>
+    <string name="delete_message_user">Temp user Deleted.</string>
+    <string name="empty_required">Fields Are Required.</string>
+    <string name="empty_required_all">All Fields Are Required.</string>
+    <string name="notes_synced">Notes are Synced.</string>
+    <string name="failed_connect">Failed to Connect. Try Again.</string>
+    <string name="add_note">Add Note</string>
+    <string name="edit_note">Edit Note</string>
+    <string name="my_notes">My Notes</string>
+    <string name="hint_description">Write Your Note Here</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="description_here">Description Here</string>
+    <string name="title_here">Title Here</string>
+    //Theme
+    <string name="one_theme">Day Mode</string>
+    <string name="night_theme">Night Mode</string>
+    //Close App
+    <string name="do_you_want_to_exit">Do you want to Exit ?</string>
+    <string name="no">NO</string>
+    <string name="yes">YES</string>
+</resources>

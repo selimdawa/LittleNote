@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?colorOnBackground"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar_add_edit" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="10sp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/noteTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/button3"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/title_here"
+                android:inputType="textPersonName"
+                android:padding="10sp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="10sp"
+                android:background="@drawable/button4"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/noteContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5sp"
+                    android:backgroundTint="@android:color/transparent"
+                    android:ems="10"
+                    android:gravity="start|top"
+                    android:hint="@string/hint_description"
+                    android:inputType="textMultiLine"
+                    android:textColor="?colorError"
+                    android:textColorHint="?colorError"
+                    android:textSize="16sp"
+                    android:textStyle="normal" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    style="?android:attr/progressBarStyle"
+                    android:layout_width="50sp"
+                    android:layout_height="50sp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:indeterminateDrawable="@drawable/progress_bar"
+                    android:visibility="invisible" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</layout>
