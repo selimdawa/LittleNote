@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.flatcode.littlenote">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -13,7 +12,7 @@
         android:theme="@style/OneTheme"
         android:usesCleartextTraffic="true">
         <activity
-            android:name="com.flatcode.littlenote.Activity.Splash"
+            android:name=".Activity.Splash"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,24 +21,24 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.flatcode.littlenote.Auth.Register" />
-        <activity android:name="com.flatcode.littlenote.Auth.Login" />
-        <activity android:name="com.flatcode.littlenote.Auth.ForgetPassword" />
-        <activity android:name="com.flatcode.littlenote.Activity.EditNote" />
+        <activity android:name=".Auth.Register" />
+        <activity android:name=".Auth.Login" />
+        <activity android:name=".Auth.ForgetPassword" />
+        <activity android:name=".Activity.EditNote" />
 
         <activity
-            android:name="com.flatcode.littlenote.Activity.AddNote"
+            android:name=".Activity.AddNote"
             android:label="@string/title_activity_add_note"
-            android:parentActivityName="com.flatcode.littlenote.Activity.Home">
+            android:parentActivityName=".Activity.Home">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.flatcode.littlenote.Activity.Home" />
+                android:value=".Activity.Home" />
         </activity>
 
         <activity
-            android:name="com.flatcode.littlenote.Activity.NoteDetails"
+            android:name=".Activity.NoteDetails"
             android:label="@string/title_activity_note_details" />
-        <activity android:name="com.flatcode.littlenote.Activity.Home">
+        <activity android:name=".Activity.Home">
 
         </activity>
 
