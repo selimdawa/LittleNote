@@ -58,9 +58,8 @@ dependencies {
     implementation platform('com.google.firebase:firebase-bom:31.2.0') //Firebase BOM
     implementation 'com.google.firebase:firebase-auth'                 //Firebase Auth
     implementation 'com.google.firebase:firebase-analytics'            //Firebase Analytics
-    implementation 'com.google.firebase:firebase-crashlytics'          //Firebase Crashlytics
+    //implementation 'com.google.firebase:firebase-crashlytics'          //Firebase Crashlytics
     implementation 'com.google.firebase:firebase-firestore'            //Firebase Fire Store
-    //implementation 'com.google.firebase:firebase-core'                 //Firebase Core
     //Don't Change
     implementation 'com.firebaseui:firebase-ui-firestore:4.2.1'        //Firebase Store UI
 }
